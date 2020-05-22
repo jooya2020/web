@@ -33,7 +33,7 @@ display: flex;
 	justify-content: center;
 }
 .logo img{
-	
+	opacity: 1;
 	width: 35px;
 	height: auto;
 }
@@ -278,16 +278,35 @@ display: flex;
 #section03{
 	width:100%;
 	height:1000px;
-	background:#fff;
+	background:#959595;
 	display: flex;
 	justify-content: center;
 }
 
 .contaner-3{
+	display: inline-flex;
 		width: 96%;
 		height: 1000px;
-		background: rgba(43, 165, 43, 0.719);
+		/* background: rgba(43, 165, 43, 0.719); */
 	}
+
+.cont-01{
+	
+	
+
+	/* background-color: rgba(0, 0, 0, 0.493); */
+
+}
+/* .cont-01 img{
+	width: 100%;
+	line-height: 1000px;
+	margin-top: 40%;
+} */
+.cont-02{
+	width:96%;
+	height: 1000px;
+	background-color: rgba(0, 0, 0, 0.267);
+}
 /* 섹션 3 끝 */
 /* 섹션 4 시작 ---------------------------------------------------- */	
 #section04{

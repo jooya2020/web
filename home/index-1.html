@@ -154,7 +154,17 @@
 <!-- section02 끝 ------------------------------------------------ -->
 <div id="section03">
 	<div class="contaner-3">
+		<div class="cont-01">
+			<img src="images/파주건물내부구조도.png" alt="blueprint">	
+		</div>
 
+		<div class="cont-02">
+			<div class="wrab-slaid">
+				<div class="slider">
+
+				</div>
+			</div>
+		</div>
 	</div>
 </div>
 <!-- section03 끝 ------------------------------------------------ -->
@@ -199,7 +209,7 @@
 	}
 
 
-   
+	if (jQuery(window).width() > 0) {
     $(window).on("scroll",function(ev){
         if($(window).scrollTop() > 1000 ) { /**높이 픽셀 조정**/
             $('.logo').show();  
@@ -212,7 +222,7 @@
         }
         return false;
     });
-	
+}
 
 	
 	/**마우스 부드럽게 해당위치로 이동**/

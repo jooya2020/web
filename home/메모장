@@ -58,3 +58,29 @@
 	padding-top: 35%;
 	padding-left:8% ;
 }
+
+
+
+.cont-center{
+	position: relative;
+	width: 34%;
+	height: 1000px;
+	/* background-color: rgb(141, 150, 142); */
+}
+.cont-bg {
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+}
+.cont-bg img{
+	width: 99%;
+	margin-left: 5%;
+}
+.cont-jpg{
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}

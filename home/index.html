@@ -197,7 +197,7 @@
     });
 	}
 
-	if (jQuery(window).width() >= 0) {
+	if (jQuery(window).height() >= -1) {
     jQuery(window).on("scroll",function(ev){
         if(jQuery(window).scrollTop() > 1000 ) { /**높이 픽셀 조정**/
             jQuery('.logo').addClass('show');
