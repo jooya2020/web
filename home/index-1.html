@@ -27,11 +27,12 @@
                 <div class="logo"><a href="#section01"><img src="images/파주-로고.png" alt="파주출판도시"></a></div>
                 <!-- logo -->
                 <ul>
-                    <li><a href="#section01">About</a></li>
-                    <li><a href="#section02">Wisdom</a></li>
-                    <li><a href="#section03">Letterpress</a></li>
-                    <li><a href="#section04">Mimesis</a></li>
-                    <li><a href="#section05">Other</a></li>
+					
+                    <li><a href="#section02">About</a></li>
+                    <li><a href="#section03">Wisdom</a></li>
+                    <li><a href="#section04">Letterpress</a></li>
+                    <li><a href="#section05">Mimesis</a></li>
+                    <li><a href="#section06">Other</a></li>
                 </ul>
            
         </div>
@@ -44,11 +45,24 @@
     </div>
 
     
-    <a href="#prev" onclick="return prev();"><div class="chainge-bt prev"><img src="images/prev.png" alt="이전"></div> </a>
-    <a href="#next" onclick="return next();"><div class="chainge-bt next"><img src="images/next.png" alt="다음"></div> </a>
+
     
 
     <div class="cont-center">
+
+
+		<div class="chainge-bt prev">
+			<a href="#prev" onclick="return prev();">
+				<img src="images/prev.png" alt="이전">
+			</a>
+		</div> 
+		<div class="chainge-bt next">
+			<a href="#next" onclick="return next();">
+				<img src="images/next.png" alt="다음">
+			</a>
+		</div>
+
+
         <div class="cont-bg">
             <img src="images/사진컬러틀.png" alt="네모카드"></div>
         <div class="cont-jpg" >
@@ -90,11 +104,59 @@
 </div>
 <!-- section01 끝 ------------------------------------------------ -->
 <div id="section02">
-
+	<div class="contaner-2">
+		<div class="sec-2-title">
+			<img src="images/title.png" alt="제목">
+		</div>
+	
+		<div class="sec-2-container">
+			<div class="sec-2-box">
+				
+					<div class="markig"> </div>
+				
+				<ul>
+					
+					<li>책의 도시</li>
+					
+					<li><img src="images/book-city.png" alt="도서관 사진"></li>
+					<li>책의도시 파주파주<br>
+						“파주”예~!</li>
+				</ul>
+			</div>
+			<div class="sec-2-box">
+				<ul>
+					<li>건축의 도시</li>
+					<li><img src="images/construction.png" alt="건물 사진"></li>
+					<li>다채로운 건물들<br>
+						“꽃피운 건축”</li>
+				</ul>
+			</div>
+			<div class="sec-2-box">
+				<ul>
+					<li>문화의 도시</li>
+					<li><img src="images/experience.png" alt="체험 사진"></li>
+					<li>파주 출판도시에서<br>
+						어떤 “문화체험”</li>
+				</ul>
+			</div>
+			<div class="sec-2-box">
+				<ul>
+					<li>오시는 길</li>
+					<li><img src="images/come-to-way.png" alt="파주 이미지"></li>
+					<li>파주출판 도시<br>
+						“오는 방법” </li>
+				</ul>
+			</div>
+		</div>
+	</div>
 </div>
 
 <!-- section02 끝 ------------------------------------------------ -->
-<div id="section03"></div>
+<div id="section03">
+	<div class="contaner-3">
+
+	</div>
+</div>
 <!-- section03 끝 ------------------------------------------------ -->
 <div id="section04"></div>
 <!-- section04 끝 ------------------------------------------------ -->
@@ -164,6 +226,22 @@
 		  return false;
 	   });
 	});
+
+
+
+
+
+	// $('.sec-2-box').mouseover(function () {
+    //       $('.markig').css('display','block!important');
+	// 	  $('.sec-2-box').css('border','1.5px solid #cfc328!important');
+    //     });
+
+	// $(".sec-2-box").hover(function(){
+	// $('.markig').css("display", "none");
+	// }, function(){
+	// $(this).css("dispiay", "block");
+	// });
+
 </script>
 </body>
 </html>

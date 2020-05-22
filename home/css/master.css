@@ -38,9 +38,32 @@ display: flex;
 }
 
 /* 메인페이지 z-index 오른쪽 왼쪽 슬라이드? 버튼 */
+
+.chainge-bt{
+position: absolute;
+top: 50%;
+
+}
+
+.prev{
+left: 15%;
+}
+
+.prev >a>img{
+	width: 20%;
+}
+.next >a>img{
+	width: 20%;
+}
+
+.next{
+left: 85%;
+}
+
 /* 메인페이지 컨테이너 시작*/
 .contaner{
 display: flex;
+
 	width: 96%;
 	height: 1000px;
 	/* background: green; */
@@ -119,29 +142,6 @@ display: flex;
 	transform: translate(-50%, -50%);
 	padding: 150px 70px;
 }
-
-.next {
-	position: absolute;
-	top:53%;
-	left:62%;
-}
-
-.next img{
-	width: 30%;
-
-}
-
-
-.prev {
-	position: absolute;
-	top:53%;
-	left:36%;
-	}
-
-.prev img{
-	width: 30%;
-
-}
 /* 메인페이지 컨텐츠 가운데 끝 */
 
 /* 메인페이지 컨텐츠 오른쪽 시작 */
@@ -190,17 +190,98 @@ display: flex;
 	width:100%;
 	height:1000px;
 	background:#fff;
-	
+	display: flex;
+	justify-content: center;
 }
+.contaner-2{
+	
+		width: 96%;
+		height: 1000px;
+		/* background: rgba(43, 165, 43, 0.719); */
+	}
+.sec-2-title{
 
+	display: flex;
+	padding-top: 150px;
+	justify-content: center;
+	}
+	.sec-2-title img{
+		width: 400px;
+	}
+	
+	.sec-2-container{
+		display: flex;
+		justify-content: center;
+		width: 100%;
+		padding-top: 100px;
+		
+	}
+	.sec-2-container >div{
+		margin-left: 4px;
+		margin-right: 4px;
+	}
+	
+	/* 목록4 */
+	.sec-2-box{
+	
+		text-align: center;
+		width: 300px;
+		border: 1px solid lightgray;
+		box-sizing: border-box;
+	
+	}
+	.sec-2-box>ul>:first-child{
+	margin-top: 40px;
+	margin-bottom: 20px;
+		font-size: 14px;
+		font-weight: bold;
+	}
+	.sec-2-box>ul>:nth-child(3){
+		margin-top: 30px;
+		margin-bottom: 50px;
+	}
+	
+	
+	.sec-2-box:hover{
+		border: 1.5px solid #cfc328;
+		box-sizing: border-box;
+	}
+	.sec-2-box img{
+		width:240px ;
+	}
+	
+	.markig{
+		opacity: 1%;
+		position: absolute;
+		margin-top: 35px;
+		width: 5px;
+		height: 25px;
+		background-color: #cfc328;
+	}
+	
+	.markig:hover{
+		opacity: 100%;
+	}
+	
 /* 제목 */
+
 /* 목록4 */
 
 /* 섹션 2 끝 */
 /* 섹션 3 시작 ---------------------------------------------------- */
 #section03{
-	width:100%; height:1000px; background:#9F0;
+	width:100%;
+	height:1000px;
+	background:#fff;
+	display: flex;
+	justify-content: center;
 }
+
+.contaner-3{
+		width: 96%;
+		height: 1000px;
+		background: rgba(43, 165, 43, 0.719);
+	}
 /* 섹션 3 끝 */
 /* 섹션 4 시작 ---------------------------------------------------- */	
 #section04{
