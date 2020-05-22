@@ -45,15 +45,12 @@ top: 50%;
 
 }
 
+.chainge-bt >a>img{
+	width: 20%;
+	
+}
 .prev{
 left: 15%;
-}
-
-.prev >a>img{
-	width: 20%;
-}
-.next >a>img{
-	width: 20%;
 }
 
 .next{
