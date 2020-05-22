@@ -1,10 +1,60 @@
+.wrab{
+	display: flex;
+	
+}
+.box1{
+	position: relative;
+	width: 33%;
+	height: 1000px;
+	background-color: green;
+}
+.box1 img{
+	position: absolute;
+	top:30%;
+	right: 12%;
+	
+}
+.box2{
+	display: flex;
+	width: 34%;
+ height: 1000px;
+ background-color: rgb(21, 107, 21);
+}
+.box2-bg{
+	justify-self: center;
+	width: 307px;
+	height: 477px;
+	background-color: #d3c71d;
+	top:25%;
+	left:25%;
+}
+.box2-jpg{
+	position: absolute;
+	margin-top:30%;
+	margin-left:25.2%;
+	width: 307px;
+	margin-top:35%;
+	margin-left:30%;
+}
+.box2-jpg img{
+	width: 307px; /* 넓이를 지정 */
+   height: auto;
+	transform: rotate(-6deg);
+	box-shadow:0px 0px 15px  rgba(101, 119, 51, 0.377);
+	margin-top:35%;
+	margin-left:30%;
+}
+.box2-concept{
+	width: 245px;
+	height: 415px;
+	margin-top:35%;
+	margin-left:30%;
+	
+	background-color: #FFF;
+	position: absolute;
+}
 
-섹션 별로 div 1700 감싸서 justify-content: conter 정렬
-1p 가운데이미지 opercity 10 font color white
-" 호버 opercity100 font-color black
-
-mouseover
-
-box-shadow  박스 안으로 선 넣기
-
-
+.box2-concept img{
+	padding-top: 35%;
+	padding-left:8% ;
+}
