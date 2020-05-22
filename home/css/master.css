@@ -33,10 +33,13 @@ display: flex;
 	justify-content: center;
 }
 .logo img{
+	opacity: 1%;
 	width: 35px;
 	height: auto;
 }
-
+/* .yap{
+	opacity: 100%!important;
+} */
 /* 메인페이지 z-index 오른쪽 왼쪽 슬라이드? 버튼 */
 
 .chainge-bt{
