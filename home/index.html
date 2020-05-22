@@ -197,6 +197,22 @@
     });
 	}
 
+	if (jQuery(window).width() >= 0) {
+    jQuery(window).on("scroll",function(ev){
+        if(jQuery(window).scrollTop() > 1000 ) { /**높이 픽셀 조정**/
+            jQuery('.logo').addClass('show');
+			jQuery('.logo').removeClass('remove');
+              /**위의 높이에서 .fixed 클래스를 추가합니다. 스타일에서 자유롭게 수치 조절 가능합니다.**/
+        }
+        else{
+			jQuery('.logo').addClass('remove');
+			jQuery('.logo').removeClass('show');
+            
+        }
+        return false;
+    });
+	}
+
 	// if (jQuery(window).width() >= 0) {
     // jQuery(window).on("scroll",function(ev){
     //     if(jQuery(window).scrollTop() > 1000 ) { /**높이 픽셀 조정**/
@@ -226,17 +242,17 @@
     // });
 	
 
-	$(window).scroll(function() {    
-    var scroll = $(window).scrollTop();
-     //console.log(scroll);
-    if (scroll > 1000) {
-        //console.log('a');
-        $(".logo").addClass("change");
-    } else {
-        //console.log('a');
-        $(".header").removeClass("change");
-    }
-});
+// 	$(window).scroll(function() {    
+//     var scroll = $(window).scrollTop();
+//      //console.log(scroll);
+//     if (scroll > 1000) {
+//         //console.log('a');
+//         $(".logo").addClass("change");
+//     } else {
+//         //console.log('a');
+//         $(".header").removeClass("change");
+//     }
+// });
 
 
 	

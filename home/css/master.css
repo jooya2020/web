@@ -33,9 +33,15 @@ display: flex;
 	justify-content: center;
 }
 .logo img{
-	opacity: 1%;
+	
 	width: 35px;
 	height: auto;
+}
+.show{
+	opacity: 100%;
+}
+.remove{
+	opacity: 1%;
 }
 /* .yap{
 	opacity: 100%!important;
