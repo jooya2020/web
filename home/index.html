@@ -10,118 +10,48 @@
 <meta property="og:title" content="파주출판도시"/>
 
 <title>Untitled Document</title>
-<!-- 스크립트&css링크 시작 -------------------------------------  -->
-<script src="http://code.jquery.com/jquery.min.js"></script>
+<!-- 스크립트&css링크 시작 -->
+<script src="js/jqury.min.js"></script>
+<script src="js/swiper.min.js"></script>
 <link rel="stylesheet" href="css/reset.css">
 <link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="css/swiper.min.css">
 <link rel="stylesheet" href="css/master.css">
-<!-- 스크립트&css링크 끝 --------------------------------------- -->
+<!-- 스크립트&css링크 끝 -->
 </head>
 
 <body>
     
     <div id="section01">
-        <!-- menu start ------------------------------------------ -->
+    
+        <!-- menu start -->
         <div class="menu_box">
             
                 <div class="logo"><a href="#section01"><img src="images/파주-로고.png" alt="파주출판도시"></a></div>
                 <!-- logo -->
                 <ul>
-					
                     <li><a href="#section02">About</a></li>
                     <li><a href="#section03">Wisdom</a></li>
                     <li><a href="#section04">Letterpress</a></li>
                     <li><a href="#section05">Mimesis</a></li>
                     <li><a href="#section06">Other</a></li>
                 </ul>
-           
+        
         </div>
-        <!-- menu end -------------------------------------------- -->
-        <div class="gap"></div>
-        <div class="contaner cont-all">
+        <!-- menu end -->
 
-            <div class="cont-logo">
-                <img src="images/파주-로고-color.png" alt="logo">
-            </div>
-            <!-- logo -->
-            <div class="prev cont-prev">
-                <div class="item-prev">
-                    <a href="#prev" onclick="return prev();">
-                        <img src="images/prev.png" alt="이전">
-                    </a>
-                </div>
-            </div>
-            <!-- prev -->
-            <div class="cont-images">  
-		          
-                <div class="cont-bg">
-                    <img src="images/사진컬러틀.png" alt="네모카드">
-                </div>
-                <div class="cont-jpg" >
-                    <img id="png" src="images/img1.png" alt="파주 근린공원">
-                </div>
-                <div class="cont-concept">
-					<img src="images/Space_photo_white.png" alt="" class="wh-main-img">
-					<img src="images/Space_photo.png" alt="" class="bl-main-img">
-                </div>
-            </div>
-            <!-- images -->
-            <div class="next cont-next">
-                <div class="item-next">
-                    <a href="#next" onclick="return next();">
-                        <img src="images/next.png" alt="다음">
-                    </a>
-                </div>
-            </div>
-            <!-- next -->
-            <div class="cont-txt">
-
-                <div class="cont3">
-                   
-                        <div class="line-1 bold">
-                            <p>NO. 1</p>
-                            <div class="line-bty"></div>
-                            <p>5</p>
-                        </div>
-        
-                        <div class="line-2">
-                            <p class="prompt-700 l2-title hm-60" >ABOUT PAJU</p>
-                            <p>소개  및 오시는 길 </p>
-                        </div>
-        
-                        <div class="line-3">
-                            <a href="#section02">
-                                <p class="hm-60 "id="l3-p">view detail </p>
-                            </a>
-                        </div>
-                        
-                   
-                </div>
-
-            </div>
-            <!-- txt -->
-        </div>
-        <div class="gap"></div>
-        
-</div>
-<!-- section01 끝 ------------------------------------------------ -->
+    </div>
+<!-- section01 끝 -->
 <div id="section02">
-    <div class="gap1"></div>
-    <div class="contaner1">
-    
-            <div class="sec-2-title">
-                <img src="images/title.png" alt="제목">
-            </div>
-        
-            <div class="sec-2-container">
+    <div class="cover">
+        <div class="sec-2-title">
+            <img src="images/title.png" alt="제목">
+        </div>
+        <div class="sec-2-container">
+            <div class="sec2-align">
                 <div class="sec-2-box">
-                    
-                        <div class="markig"> </div>
-                    
                     <ul>
-                        
                         <li>책의 도시</li>
-                        
                         <li><img src="images/book-city.png" alt="도서관 사진"></li>
                         <li>책의도시 파주파주<br>
                             “파주”예~!</li>
@@ -143,58 +73,114 @@
                             어떤 “문화체험”</li>
                     </ul>
                 </div>
-                <div class="sec-2-box">
+            
+                <div class="sec-2-box "id="popup-button" style ="cursor: pointer;">
                     <ul>
                         <li>오시는 길</li>
                         <li><img src="images/come-to-way.png" alt="파주 이미지"></li>
-                        <li>파주출판 도시<br>
+                        <li >파주출판 도시<br>
                             “오는 방법” </li>
                     </ul>
                 </div>
             </div>
         </div>
-    
-    <div class="gap1"></div>
+    </div>
 </div>
-
-<!-- section02 끝 ------------------------------------------------ -->
+<!-- section02 끝 -->
 <div id="section03">
+<div class="sec03-warp">
+    <div class="sec03-container">
+        <div class="sec03-tab">
+            <ul>
+                <li id="tab-1" curser="pointer"><a href="#none" ><img src="images/bar-btn.jpg" alt="지혜의 숲"></a></li>
+                <li id="tab-2" curser="pointer"><a href="#none" ><img src="images/bar-btn.jpg" alt="활자의 숲"></a></li>
+                <li id="tab-3" curser="pointer"><a href="#none" ><img src="images/bar-btn.jpg" alt="지지향"></a></li>
+            </ul>
+        </div>
+        <div class="slide-text tab-txt-1">            
+                <h1>Forest of Wisdom</h1>
+                <h2>지혜의 숲</h2>
+                <p>아시아출판문화정보센터 1층에 위치하고 있는 
+                    지혜의 숲은 가치 있는 책을 한데 모아 보존 보호하고
+                    관리하며 함께 보는 공동의 서재입니다.
+                    지혜의숲은 출판도시문화재단이 2014년도에
+                    문화체육관광부의 후원을 받아 조성한 이래 
+                    재단의 자체 재원으로 운영하고 있는 복합문화공간입니다.
+                    출판도시문화재단은 출판단지조합이 출자하고
+                    문화체육관광부가 설립을 허가한 비영리 재단법인입니다.
+                </p>           
+        </div>
+       
+        <div class="slide-text tab-txt-2">            
+            <h1>Forest of Letterpress</h1>
+            <h2>활자의 숲</h2>
+            <p>사람들이 책으로 부터 멀어지는 것을 걱정하는 작가와 지식인,예술가들이 시작했습니다. 세계최초의 활판인쇄국가이자 가장 우수한 제책기술을 지닌 우리나라에서 활판인쇄술과 오침제본술이 사라지는 것을 안타까워하는 출판인쇄인들이 힘을 보태 만들었습니다. 
+            </p>           
+        </div>
 
+        <div class="slide-text tab-txt-3">            
+            <h1>Guesthouse "Jijihyang"</h1>
+            <h2>지지향</h2>
+            <p>잠들지 않는 서비스를 제공하는 지지향 라운지는 열린 독서문화공간 지혜의숲이기도 합니다.
+                잠 못 드는 깊은 밤을 책을 벗삼아 지새우는 것 역시 지지향에서 할수 있는 특별한 경험입니다.
+            </p> 
+        </div>          
+    </div>
+
+    <div class="slide slid-1">
+            <!-- Swiper -->
+        <div class="swiper-container slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide bg-1">Slide 1</div>
+                <div class="swiper-slide bg-2">Slide 2</div>
+                <div class="swiper-slide bg-3">Slide 3</div>
+                <div class="swiper-slide bg-4">Slide 4</div>
+                
+            </div>
+    <!-- Add Pagination -->
+            <div class="swiper-pagination">   
+            </div>
+        </div>
+    </div>
+    <div class="slide slid-2">
+        <!-- Swiper -->
+    <div class="swiper-container slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide bg-1">Slide 1</div>
+            <div class="swiper-slide bg-2">Slide 2</div>
+            <div class="swiper-slide bg-3">Slide 3</div>
+            <div class="swiper-slide bg-4">Slide 4</div>
+            
+        </div>
+<!-- Add Pagination -->
+        <div class="swiper-pagination">   
+        </div>
+    </div>
+    </div>
+    <div class="slide slid-3">
+        <!-- Swiper -->
+    <div class="swiper-container slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide bg-1">Slide 1</div>
+            <div class="swiper-slide bg-2">Slide 2</div>
+            <div class="swiper-slide bg-3">Slide 3</div>
+            <div class="swiper-slide bg-4">Slide 4</div>
+            
+        </div>
+<!-- Add Pagination -->
+        <div class="swiper-pagination">   
+        </div>
+    </div>
+    </div>
+<!-- slide  -->
 </div>
-
-
-<!-- section03 끝 ------------------------------------------------ -->
-<div id="section04">
-    <!-- <div class="gap"></div>
-    <div class="contaner"></div>
-    <div class="gap"></div> -->
+<!-- sec03 warp  -->
 </div>
-<!-- section04 끝 ------------------------------------------------ -->
-<div id="section05">
-    <!-- <div class="gap"></div>
-    <div class="contaner"></div>
-    <div class="gap"></div> -->
-</div>
-<!-- section05 끝 ------------------------------------------------ -->
-
-<!-- section01 이미지 변경 자바스크립트 시작---------------------- -->
-<script>
-    var n =1;
-    function next(){
-        n++;
-        if(n>5) n=1;
-        document.getElementById("png").src="images/img"+n+".png";
-        return false;
-    }   
-    function prev(){
-        n--;
-        if(n<1) n=5;
-        document.getElementById("png").src="images/img"+n+".png";
-    return false;
-    }
-</script>
-<!-- section01 이미지 변경 자바스크립트 끝 ----------------------- -->
-
+<!-- section03 끝 -->
+<div id="section04"></div>
+<!-- section04 끝 -->
+<div id="section05"></div>
+<!-- section05 끝 -->
 <script>
 	/**스크롤이 설정한 높이 이상 내려갔을때 스타일추가하기**/
 	if (jQuery(window).width() > 0) {
@@ -209,8 +195,9 @@
         }
         return false;
     });
-	}
-
+    }
+    
+// 섹션 1에서 로고 안보이게 하기 시작
 	if (jQuery(window).height() >= -1) {
     jQuery(window).on("scroll",function(ev){
         if(jQuery(window).scrollTop() > 1000 ) { /**높이 픽셀 조정**/
@@ -226,10 +213,8 @@
         return false;
     });
 	}
+// 섹션 1에서 로고 안보이게 하기 끝
 
-
-
-	
 	/**마우스 부드럽게 해당위치로 이동**/
 	$(function(){
 	   $('a[href^=#]').click(function() {
@@ -241,6 +226,58 @@
 		  return false;
 	   });
 	});
+
+// swiper 
+
+
+var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 2,
+      spaceBetween: 30,
+      freeMode: true,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+    });
+
+// tab
+$(function(){
+    $("#tab-1").click(function(){
+    
+        $(".tab-txt-1").css("display","block");
+        $(".tab-txt-2").css("display","none");
+        $(".tab-txt-3").css("display","none");
+            // text
+        $(".slid-1").css("display","block");
+        $(".slid-2").css("display","none");
+        $(".slid-3").css("display","none");
+            // slid
+    });
+    $("#tab-2").click(function(){
+        $(".tab-txt-2").css("display","block");
+        $(".tab-txt-1").css("display","none");
+        $(".tab-txt-3").css("display","none");
+            // text
+        $(".slid-1").css("display","block");
+        $(".slid-2").css("display","none");
+        $(".slid-3").css("display","none");
+            // slid
+    });
+    $("#tab-3").click(function(){
+        $(".tab-txt-3").css("display","block");
+        $(".tab-txt-1").css("display","none");
+        $(".tab-txt-2").css("display","none");
+            // text
+        $(".slid-1").css("display","block");
+        $(".slid-2").css("display","none");
+        $(".slid-3").css("display","none");
+            // slid
+    });
+
+});
+
+
+
 
 
 </script>
